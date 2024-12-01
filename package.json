@@ -1,0 +1,26 @@
+{
+  "name": "ai-chat-heurist",
+  "version": "1.0.0",
+  "description": "Using Heurist with the Vercel AI SDK to build a chatbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ai-sdk/openai": "^1.0.5",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "ai": "^4.0.9",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
